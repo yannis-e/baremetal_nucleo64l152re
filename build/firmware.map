@@ -1,0 +1,402 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc build/startup.o
+ .group         0x00000000        0xc build/startup.o
+ .text          0x00000000        0x0 build/startup.o
+ .data          0x00000000        0x0 build/startup.o
+ .bss           0x00000000        0x0 build/startup.o
+ .comment       0x00000000       0x47 build/startup.o
+ .group         0x00000000        0xc build/app/main.o
+ .group         0x00000000        0xc build/app/main.o
+ .group         0x00000000        0xc build/app/main.o
+ .group         0x00000000        0xc build/app/main.o
+ .text          0x00000000        0x0 build/app/main.o
+ .data          0x00000000        0x0 build/app/main.o
+ .bss           0x00000000        0x0 build/app/main.o
+ .debug_macro   0x00000000      0xad2 build/app/main.o
+ .debug_macro   0x00000000      0x34e build/app/main.o
+ .comment       0x00000000       0x47 build/app/main.o
+ .group         0x00000000        0xc build/drivers/pwm.o
+ .group         0x00000000        0xc build/drivers/pwm.o
+ .group         0x00000000        0xc build/drivers/pwm.o
+ .text          0x00000000        0x0 build/drivers/pwm.o
+ .data          0x00000000        0x0 build/drivers/pwm.o
+ .bss           0x00000000        0x0 build/drivers/pwm.o
+ .debug_macro   0x00000000      0xad2 build/drivers/pwm.o
+ .debug_macro   0x00000000      0x34e build/drivers/pwm.o
+ .debug_macro   0x00000000       0x22 build/drivers/pwm.o
+ .comment       0x00000000       0x47 build/drivers/pwm.o
+ .group         0x00000000        0xc build/drivers/7seg.o
+ .group         0x00000000        0xc build/drivers/7seg.o
+ .group         0x00000000        0xc build/drivers/7seg.o
+ .group         0x00000000        0xc build/drivers/7seg.o
+ .text          0x00000000        0x0 build/drivers/7seg.o
+ .data          0x00000000        0x0 build/drivers/7seg.o
+ .bss           0x00000000        0x0 build/drivers/7seg.o
+ .text.displaySet
+                0x00000000       0xb0 build/drivers/7seg.o
+ .text.displayInit
+                0x00000000       0x28 build/drivers/7seg.o
+ .text.displaySetDot
+                0x00000000       0x24 build/drivers/7seg.o
+ .text.displayReload
+                0x00000000       0x30 build/drivers/7seg.o
+ .bss.showLeadingZeros
+                0x00000000        0x1 build/drivers/7seg.o
+ .bss.position  0x00000000        0x1 build/drivers/7seg.o
+ .data.display_value
+                0x00000000        0x4 build/drivers/7seg.o
+ .rodata.digit_select
+                0x00000000        0x4 build/drivers/7seg.o
+ .rodata.digit_segments
+                0x00000000        0xa build/drivers/7seg.o
+ .debug_info    0x00000000      0x2cd build/drivers/7seg.o
+ .debug_abbrev  0x00000000      0x14d build/drivers/7seg.o
+ .debug_loclists
+                0x00000000      0x157 build/drivers/7seg.o
+ .debug_aranges
+                0x00000000       0x38 build/drivers/7seg.o
+ .debug_rnglists
+                0x00000000       0x3e build/drivers/7seg.o
+ .debug_macro   0x00000000       0x68 build/drivers/7seg.o
+ .debug_macro   0x00000000      0xad2 build/drivers/7seg.o
+ .debug_macro   0x00000000      0x34e build/drivers/7seg.o
+ .debug_macro   0x00000000       0x22 build/drivers/7seg.o
+ .debug_macro   0x00000000       0x22 build/drivers/7seg.o
+ .debug_line    0x00000000      0x261 build/drivers/7seg.o
+ .debug_str     0x00000000     0x3b2b build/drivers/7seg.o
+ .comment       0x00000000       0x47 build/drivers/7seg.o
+ .debug_frame   0x00000000       0x6c build/drivers/7seg.o
+ .ARM.attributes
+                0x00000000       0x2d build/drivers/7seg.o
+ .group         0x00000000        0xc build/drivers/systick.o
+ .group         0x00000000        0xc build/drivers/systick.o
+ .text          0x00000000        0x0 build/drivers/systick.o
+ .data          0x00000000        0x0 build/drivers/systick.o
+ .bss           0x00000000        0x0 build/drivers/systick.o
+ .text.delay_ms
+                0x00000000       0x18 build/drivers/systick.o
+ .debug_macro   0x00000000      0xad2 build/drivers/systick.o
+ .debug_macro   0x00000000      0x34e build/drivers/systick.o
+ .comment       0x00000000       0x47 build/drivers/systick.o
+ .group         0x00000000        0xc build/drivers/shift_register.o
+ .group         0x00000000        0xc build/drivers/shift_register.o
+ .group         0x00000000        0xc build/drivers/shift_register.o
+ .group         0x00000000        0xc build/drivers/shift_register.o
+ .text          0x00000000        0x0 build/drivers/shift_register.o
+ .data          0x00000000        0x0 build/drivers/shift_register.o
+ .bss           0x00000000        0x0 build/drivers/shift_register.o
+ .text.shift_out_byte
+                0x00000000       0x3c build/drivers/shift_register.o
+ .text.shift_register_init
+                0x00000000       0x4c build/drivers/shift_register.o
+ .text.shift_register_write
+                0x00000000       0x40 build/drivers/shift_register.o
+ .bss.lchclk_pin
+                0x00000000        0x2 build/drivers/shift_register.o
+ .bss.sftclk_pin
+                0x00000000        0x2 build/drivers/shift_register.o
+ .bss.sdi_pin   0x00000000        0x2 build/drivers/shift_register.o
+ .debug_info    0x00000000      0x31f build/drivers/shift_register.o
+ .debug_abbrev  0x00000000      0x124 build/drivers/shift_register.o
+ .debug_loclists
+                0x00000000      0x10e build/drivers/shift_register.o
+ .debug_aranges
+                0x00000000       0x30 build/drivers/shift_register.o
+ .debug_rnglists
+                0x00000000       0x1f build/drivers/shift_register.o
+ .debug_macro   0x00000000       0x46 build/drivers/shift_register.o
+ .debug_macro   0x00000000      0xad2 build/drivers/shift_register.o
+ .debug_macro   0x00000000      0x34e build/drivers/shift_register.o
+ .debug_macro   0x00000000       0x22 build/drivers/shift_register.o
+ .debug_macro   0x00000000       0x1c build/drivers/shift_register.o
+ .debug_line    0x00000000      0x195 build/drivers/shift_register.o
+ .debug_str     0x00000000     0x3abd build/drivers/shift_register.o
+ .comment       0x00000000       0x47 build/drivers/shift_register.o
+ .debug_frame   0x00000000       0x64 build/drivers/shift_register.o
+ .ARM.attributes
+                0x00000000       0x2d build/drivers/shift_register.o
+ .group         0x00000000        0xc build/drivers/uart.o
+ .group         0x00000000        0xc build/drivers/uart.o
+ .group         0x00000000        0xc build/drivers/uart.o
+ .group         0x00000000        0xc build/drivers/uart.o
+ .group         0x00000000        0xc build/drivers/uart.o
+ .text          0x00000000        0x0 build/drivers/uart.o
+ .data          0x00000000        0x0 build/drivers/uart.o
+ .bss           0x00000000        0x0 build/drivers/uart.o
+ .text.uart_init
+                0x00000000       0x6c build/drivers/uart.o
+ .text.uart_write_byte
+                0x00000000        0xc build/drivers/uart.o
+ .text.uart_write_buf
+                0x00000000       0x32 build/drivers/uart.o
+ .text.uart_read_ready
+                0x00000000        0x8 build/drivers/uart.o
+ .text.uart_read_byte
+                0x00000000        0x6 build/drivers/uart.o
+ .debug_info    0x00000000      0x39a build/drivers/uart.o
+ .debug_abbrev  0x00000000      0x1a0 build/drivers/uart.o
+ .debug_loclists
+                0x00000000      0x135 build/drivers/uart.o
+ .debug_aranges
+                0x00000000       0x40 build/drivers/uart.o
+ .debug_rnglists
+                0x00000000       0x2b build/drivers/uart.o
+ .debug_macro   0x00000000       0x61 build/drivers/uart.o
+ .debug_macro   0x00000000      0xad2 build/drivers/uart.o
+ .debug_macro   0x00000000       0x22 build/drivers/uart.o
+ .debug_macro   0x00000000      0x190 build/drivers/uart.o
+ .debug_macro   0x00000000      0x34e build/drivers/uart.o
+ .debug_macro   0x00000000       0x22 build/drivers/uart.o
+ .debug_line    0x00000000      0x21c build/drivers/uart.o
+ .debug_str     0x00000000     0x3e8a build/drivers/uart.o
+ .comment       0x00000000       0x47 build/drivers/uart.o
+ .debug_frame   0x00000000       0x7c build/drivers/uart.o
+ .ARM.attributes
+                0x00000000       0x2d build/drivers/uart.o
+ .group         0x00000000        0xc build/drivers/gpio.o
+ .group         0x00000000        0xc build/drivers/gpio.o
+ .group         0x00000000        0xc build/drivers/gpio.o
+ .group         0x00000000        0xc build/drivers/gpio.o
+ .text          0x00000000        0x0 build/drivers/gpio.o
+ .data          0x00000000        0x0 build/drivers/gpio.o
+ .bss           0x00000000        0x0 build/drivers/gpio.o
+ .text.gpio_read
+                0x00000000       0x14 build/drivers/gpio.o
+ .text.gpio_set_af
+                0x00000000       0x40 build/drivers/gpio.o
+ .text.gpio_set_pull
+                0x00000000       0x30 build/drivers/gpio.o
+ .debug_macro   0x00000000      0xad2 build/drivers/gpio.o
+ .debug_macro   0x00000000       0x22 build/drivers/gpio.o
+ .debug_macro   0x00000000      0x34e build/drivers/gpio.o
+ .debug_macro   0x00000000       0x1c build/drivers/gpio.o
+ .comment       0x00000000       0x47 build/drivers/gpio.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00080000         xr
+RAM              0x20000000         0x00014000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/startup.o
+LOAD build/app/main.o
+LOAD build/drivers/pwm.o
+LOAD build/drivers/7seg.o
+LOAD build/drivers/systick.o
+LOAD build/drivers/shift_register.o
+LOAD build/drivers/uart.o
+LOAD build/drivers/gpio.o
+                0x20014000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.vectors        0x08000000       0xec
+                0x08000000                        . = ALIGN (0x4)
+ *(.vectors)
+ .vectors       0x08000000       0xec build/startup.o
+                0x08000000                vectors
+
+.text           0x080000ec      0x29c
+                0x080000ec                        . = ALIGN (0x4)
+ *(.text*)
+ .text.Default_Handler
+                0x080000ec        0x2 build/startup.o
+                0x080000ec                Default_Handler
+ *fill*         0x080000ee        0x2 
+ .text._reset   0x080000f0       0x40 build/startup.o
+                0x080000f0                _reset
+ .text.brightness_to_duty
+                0x08000130       0x10 build/app/main.o
+ .text.triangle_brightness
+                0x08000140       0x12 build/app/main.o
+ *fill*         0x08000152        0x2 
+ .text.main     0x08000154       0xcc build/app/main.o
+                0x08000154                main
+ .text.pwmInit  0x08000220        0xa build/drivers/pwm.o
+                0x08000220                pwmInit
+ .text.pwmSetDuty
+                0x0800022a        0xc build/drivers/pwm.o
+                0x0800022a                pwmSetDuty
+ .text.pwmUpdate
+                0x08000236       0x20 build/drivers/pwm.o
+                0x08000236                pwmUpdate
+ *fill*         0x08000256        0x2 
+ .text.SysTick_Handler
+                0x08000258       0x10 build/drivers/systick.o
+                0x08000258                SysTick_Handler
+ .text.systick_init
+                0x08000268       0x24 build/drivers/systick.o
+                0x08000268                systick_init
+ .text.millis   0x0800028c        0xc build/drivers/systick.o
+                0x0800028c                millis
+ .text.gpio_port
+                0x08000298        0xc build/drivers/gpio.o
+ .text.gpio_enable_clock
+                0x080002a4       0x18 build/drivers/gpio.o
+ .text.gpio_set_mode
+                0x080002bc       0x30 build/drivers/gpio.o
+                0x080002bc                gpio_set_mode
+ .text.gpio_write
+                0x080002ec       0x1e build/drivers/gpio.o
+                0x080002ec                gpio_write
+ *(.rodata*)
+ *fill*         0x0800030a        0x2 
+ .rodata.gamma_table
+                0x0800030c       0x65 build/app/main.o
+ *fill*         0x08000371        0x3 
+ .rodata.phase_offsets
+                0x08000374        0x4 build/app/main.o
+ .rodata.led_pins
+                0x08000378       0x10 build/app/main.o
+ *(.init)
+ *(.fini)
+                0x08000388                        . = ALIGN (0x4)
+
+.glue_7         0x08000388        0x0
+ .glue_7        0x08000388        0x0 linker stubs
+
+.glue_7t        0x08000388        0x0
+ .glue_7t       0x08000388        0x0 linker stubs
+
+.vfp11_veneer   0x08000388        0x0
+ .vfp11_veneer  0x08000388        0x0 linker stubs
+
+.v4_bx          0x08000388        0x0
+ .v4_bx         0x08000388        0x0 linker stubs
+
+.iplt           0x08000388        0x0
+ .iplt          0x08000388        0x0 build/startup.o
+
+.rel.dyn        0x08000388        0x0
+ .rel.iplt      0x08000388        0x0 build/startup.o
+
+.data           0x20000000        0x0 load address 0x08000388
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data*)
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _edata = .
+                0x08000388                        _sidata = LOADADDR (.data)
+
+.igot.plt       0x20000000        0x0 load address 0x08000388
+ .igot.plt      0x20000000        0x0 build/startup.o
+
+.bss            0x20000000        0x4 load address 0x08000388
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sbss = .
+ *(.bss*)
+ .bss.s_ticks   0x20000000        0x4 build/drivers/systick.o
+ *(COMMON)
+                0x20000004                        . = ALIGN (0x4)
+                0x20000004                        _ebss = .
+
+/DISCARD/
+ *(.comment*)
+ *(.note*)
+OUTPUT(build/firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x2d build/startup.o
+ .ARM.attributes
+                0x0000002d       0x2d build/app/main.o
+ .ARM.attributes
+                0x0000005a       0x2d build/drivers/pwm.o
+ .ARM.attributes
+                0x00000087       0x2d build/drivers/systick.o
+ .ARM.attributes
+                0x000000b4       0x2d build/drivers/gpio.o
+
+.debug_info     0x00000000      0xd74
+ .debug_info    0x00000000      0x18b build/startup.o
+ .debug_info    0x0000018b      0x45e build/app/main.o
+ .debug_info    0x000005e9      0x16a build/drivers/pwm.o
+ .debug_info    0x00000753      0x16f build/drivers/systick.o
+ .debug_info    0x000008c2      0x4b2 build/drivers/gpio.o
+
+.debug_abbrev   0x00000000      0x6d5
+ .debug_abbrev  0x00000000      0x115 build/startup.o
+ .debug_abbrev  0x00000115      0x1dc build/app/main.o
+ .debug_abbrev  0x000002f1      0x125 build/drivers/pwm.o
+ .debug_abbrev  0x00000416      0x11e build/drivers/systick.o
+ .debug_abbrev  0x00000534      0x1a1 build/drivers/gpio.o
+
+.debug_loclists
+                0x00000000      0x50c
+ .debug_loclists
+                0x00000000       0x63 build/startup.o
+ .debug_loclists
+                0x00000063      0x176 build/app/main.o
+ .debug_loclists
+                0x000001d9       0x3f build/drivers/pwm.o
+ .debug_loclists
+                0x00000218       0x4a build/drivers/systick.o
+ .debug_loclists
+                0x00000262      0x2aa build/drivers/gpio.o
+
+.debug_aranges  0x00000000      0x110
+ .debug_aranges
+                0x00000000       0x28 build/startup.o
+ .debug_aranges
+                0x00000028       0x30 build/app/main.o
+ .debug_aranges
+                0x00000058       0x30 build/drivers/pwm.o
+ .debug_aranges
+                0x00000088       0x38 build/drivers/systick.o
+ .debug_aranges
+                0x000000c0       0x50 build/drivers/gpio.o
+
+.debug_rnglists
+                0x00000000       0xc0
+ .debug_rnglists
+                0x00000000       0x19 build/startup.o
+ .debug_rnglists
+                0x00000019       0x2c build/app/main.o
+ .debug_rnglists
+                0x00000045       0x1f build/drivers/pwm.o
+ .debug_rnglists
+                0x00000064       0x25 build/drivers/systick.o
+ .debug_rnglists
+                0x00000089       0x37 build/drivers/gpio.o
+
+.debug_macro    0x00000000      0xfaf
+ .debug_macro   0x00000000       0x24 build/startup.o
+ .debug_macro   0x00000024      0xad2 build/startup.o
+ .debug_macro   0x00000af6      0x34e build/startup.o
+ .debug_macro   0x00000e44       0x62 build/app/main.o
+ .debug_macro   0x00000ea6       0x22 build/app/main.o
+ .debug_macro   0x00000ec8       0x1c build/app/main.o
+ .debug_macro   0x00000ee4       0x37 build/drivers/pwm.o
+ .debug_macro   0x00000f1b       0x3a build/drivers/systick.o
+ .debug_macro   0x00000f55       0x5a build/drivers/gpio.o
+
+.debug_line     0x00000000      0x8d8
+ .debug_line    0x00000000      0x138 build/startup.o
+ .debug_line    0x00000138      0x20c build/app/main.o
+ .debug_line    0x00000344      0x163 build/drivers/pwm.o
+ .debug_line    0x000004a7      0x193 build/drivers/systick.o
+ .debug_line    0x0000063a      0x29e build/drivers/gpio.o
+
+.debug_str      0x00000000     0x3bc3
+ .debug_str     0x00000000     0x3bc3 build/startup.o
+                               0x395d (size before relaxing)
+ .debug_str     0x00003bc3        0x0 build/app/main.o
+                               0x3b2d (size before relaxing)
+ .debug_str     0x00003bc3        0x0 build/drivers/pwm.o
+                               0x398e (size before relaxing)
+ .debug_str     0x00003bc3        0x0 build/drivers/systick.o
+                               0x39af (size before relaxing)
+ .debug_str     0x00003bc3        0x0 build/drivers/gpio.o
+                               0x3b3e (size before relaxing)
+
+.debug_frame    0x00000000      0x1e4
+ .debug_frame   0x00000000       0x38 build/startup.o
+ .debug_frame   0x00000038       0x54 build/app/main.o
+ .debug_frame   0x0000008c       0x40 build/drivers/pwm.o
+ .debug_frame   0x000000cc       0x5c build/drivers/systick.o
+ .debug_frame   0x00000128       0xbc build/drivers/gpio.o
