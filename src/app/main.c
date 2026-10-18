@@ -7,7 +7,7 @@
 
 #define LED_COUNT 4U
 #define PWM_PERIOD 100U
-#define FADE_INTERVAL_MS 3U
+#define FADE_INTERVAL_MS 3
 
 static const uint32_t led_pins[LED_COUNT] = {
     PIN('A', 5),
